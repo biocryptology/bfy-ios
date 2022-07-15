@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/biocryptology/bfy-ios'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Bfy' => 'david.vazquez@b-fy.com' }
-  s.source           = { :http => 'http://nexus.sb.biocryptology.net/repository/bfy-ios/0.4.7/Bfy.framework.zip'}
+  s.source           = { :http => 'https://nexus.sb.biocryptology.net/repository/bfy-ios/0.4.7/Bfy.framework.zip'}
 
   s.ios.deployment_target = '11.0'
   s.ios.vendored_frameworks = 'Bfy.framework'
