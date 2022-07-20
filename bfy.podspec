@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'bfy'
-  s.version          = '0.4.8 '
+  s.version          = '0.4.8'
   s.summary          = 'B-fy framework'
 
   s.description      = 'B-fy identification framework'
