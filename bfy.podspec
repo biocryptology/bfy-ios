@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'bfy'
-  s.version          = '0.5.0'
+  s.version          = '0.5.1'
   s.summary          = 'B-fy framework'
 
   s.description      = 'B-fy identification framework'
@@ -8,9 +8,9 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/biocryptology/bfy-ios'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Bfy' => 'david.vazquez@b-fy.com' }
-  s.source           = { :http => 'http://nexus.sb.biocryptology.net/repository/bfy-ios/0.5.0/Bfy.framework.zip'}
+  s.source           = { :http => 'http://nexus.sb.biocryptology.net/repository/bfy-ios/0.5.1/Bfy.framework.zip'}
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '14.0'
   s.ios.vendored_frameworks = 'Bfy.framework'
 
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
